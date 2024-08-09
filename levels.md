@@ -22,5 +22,12 @@ the password to level 11 : dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr ( used the command "
 
 the password to level 12 : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4 ( used the command "tr" to decode the ROT13 code giving USING THIS "A-za-z' 'N-ZA-Mn-za-m')
 
-the password to level 13 
+the password to level 13 : FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn ( i had to extract manu file with gzip and bunzip2 ) ( i inspected with file command ) ( inspected zippped file woth xxd file name | head verifiying the first codes ) ( tar command ) ( had to rename the file adding .gz and .bz2 to be able to extract it )
+
+the password to level 14 : MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS , in the the level 13 , with the username bandit13 , i found a file called sshkey.private which is the priavte key to log into level 14 , i used the command " ssh -i sshekey.private -p 2220 bandit14@localhost" , ones logged i went to /etc/bandit_pass and then cat bandit14 
+
+the password to level 15 : 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo , used " nc localhost 30000" to interact with the machine , i send the password the mean level and i got this password 
+
+
+
 
